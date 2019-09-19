@@ -1,17 +1,121 @@
-<!doctype html>
-<html lang="">
-{% include head.html %}
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <title>TITLE</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+
+
+  <!-- Font -->
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CPoppins:400,500" rel="stylesheet">
+
+  <!-- Stylesheets -->
+
+  <!-- <link href="common-css/bootstrap.css" rel="stylesheet"> -->
+  {% asset "common-css/bootstrap.css" %}
+
+  <!-- <link href="common-css/ionicons.css" rel="stylesheet"> -->
+  {% asset "common-css/ionicons.css" %}
+
+  <!-- <link rel="stylesheet" href="common-css/jquery.classycountdown.css" /> -->
+  {% asset "common-css/jquery.classycountdown.css" %}
+
+  <!-- <link href="01-comming-soon/css/styles.css" rel="stylesheet"> -->
+  {% asset "common-css/styles.css" %}
+
+  <!-- <link href="01-comming-soon/css/responsive.css" rel="stylesheet"> -->
+  {% asset "common-css/responsive.css" %}
+
+</head>
+
 <body>
-  <!--[if lt IE 8]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong>
-      browser. Please <a href="http://browsehappy.com/">upgrade your browser</a>
-      to improve your experience.</p>
-  <![endif]-->
 
-  <main role="main">
-    <h1>Coming Soon</h1>
-  </main>
+  <div class="main-area">
+    <div class="container full-height position-static">
 
-  {% include javascripts.html %}
+      <section class="left-section full-height">
+
+        <a class="logo" href="#"><img src="{% asset 'common-img/logo-black.png' @path %}" alt="Logo"></a>
+
+        <div class="display-table">
+          <div class="display-table-cell">
+            <div class="main-content">
+              <h1 class="title"><b>Under Construction</b></h1>
+              <p>Our website is currently undergoing scheduled maintenance.
+                We Should be back shortly. Thank you for your patience.</p>
+
+              <div class="email-input-area">
+                <form method="post">
+                  <input class="email-input" name="email" type="text" placeholder="Enter your email" />
+                  <button class="submit-btn" name="submit" type="submit"><b>NOTIFY US</b></button>
+                </form>
+              </div><!-- email-input-area -->
+
+              <p class="post-desc">Sign up now to get early notification of our lauch date!</p>
+            </div><!-- main-content -->
+          </div><!-- display-table-cell -->
+        </div><!-- display-table -->
+
+        <ul class="footer-icons">
+          <li>Stay in touch : </li>
+          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+          <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
+          <li><a href="#"><i class="ion-social-pinterest"></i></a></li>
+        </ul>
+
+      </section><!-- left-section -->
+
+      <section class="right-section" style="background-image: url({% asset 'common-img/countdown-1-1000x1000.jpg' @path %}">
+
+        <div class="display-table center-text">
+          <div class="display-table-cell">
+
+
+            <div id="rounded-countdown">
+              <div class="countdown" data-remaining-sec="2000000"></div>
+            </div>
+
+          </div><!-- display-table-cell -->
+        </div><!-- display-table -->
+
+      </section><!-- right-section -->
+
+    </div><!-- container -->
+  </div><!-- main-area -->
+
+  <!-- SCIPTS -->
+
+  <!-- <script src="common-js/jquery-3.1.1.min.js"></script> -->
+  {% asset 'common-js/jquery-3.1.1.min.js' %}
+
+  <!-- <script src="common-js/tether.min.js"></script> -->
+  {% asset 'common-js/tether.min.js' %}
+
+
+  <!-- <script src="common-js/bootstrap.js"></script> -->
+  {% asset 'common-js/bootstrap.js' %}
+
+  <!-- <script src="common-js/jquery.classycountdown.js"></script> -->
+  {% asset 'common-js/jquery.classycountdown.js' %}
+
+
+  <!-- <script src="common-js/jquery.knob.js"></script> -->
+  {% asset 'common-js/jquery.knob.js' %}
+
+
+  <!-- <script src="common-js/jquery.throttle.js"></script> -->
+  {% asset 'common-js/jquery.throttle.js' %}
+
+
+  <!-- <script src="common-js/scripts.js"></script> -->
+  {% asset 'common-js/scripts.js' %}
+
+
 </body>
+
 </html>

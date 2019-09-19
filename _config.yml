@@ -6,6 +6,7 @@ assets:
     img: { optim: {}}
   source_maps: false
   sources:
+    - _assets/coming_soon
     - _assets/javascripts
     - _assets/stylesheets
     - _assets/yarn
