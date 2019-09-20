@@ -13,7 +13,12 @@
 	//ROUNDED TIMES COUNTDOWN
 	
 	if(isExists('#rounded-countdown')){
-		var remainingSec = $('.countdown').data('remaining-sec');
+		var inauguracao = new Date('October 6, 2019 10:00:00');
+		var remainingSec = (Math.round(inauguracao.getTime()) - Math.round($.now())) / 1000;
+		console.log($.now())
+		console.log(inauguracao.getTime() / 1000)
+		console.log(remainingSec)
+		// remaningSec ddeve ser data de inauguracao - now
 		$('.countdown').ClassyCountdown({
 			theme: "flat-colors-very-wide",
 			end: $.now() + remainingSec
@@ -73,7 +78,7 @@
 function countdownTime(){
 	
 	if(isExists('#clock')){
-		$('#clock').countdown('2018/01/01', function(event){
+		$('#clock').countdown('2019/01/01', function(event){
 			var $this = $(this).html(event.strftime(''
 				+ '<div class="time-sec"><span class="title">%D</span> days </div>'
 				+ '<div class="time-sec"><span class="title">%H</span> hours </div>'

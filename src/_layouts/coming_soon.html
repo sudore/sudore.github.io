@@ -1,11 +1,27 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-  <title>TITLE</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{{ site.name }} | Em breve...</title>
+  <meta name="description" content="{{ page.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="UTF-8">
+
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:image" content="{{ site.url }}{% asset og-image.jpg @path %}">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="{{ page.url | absolute_url }}">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.description }}">
+  <meta name="twitter:image" content="{{ site.url }}{% asset og-image.jpg @path %}">
+
+  <link rel="apple-touch-icon" href="{% asset apple-touch-icon.png @path %}">
 
 
   <!-- Font -->
@@ -38,46 +54,43 @@
 
       <section class="left-section full-height">
 
-        <a class="logo" href="#"><img src="{% asset 'common-img/logo-black.png' @path %}" alt="Logo"></a>
+        <a class="logo" href="#"><img src="{% asset 'common-img/logo-sudore-sauna-express.svg' @path %}" alt="Logo"></a>
 
         <div class="display-table">
           <div class="display-table-cell">
             <div class="main-content">
-              <h1 class="title"><b>Under Construction</b></h1>
-              <p>Our website is currently undergoing scheduled maintenance.
-                We Should be back shortly. Thank you for your patience.</p>
+              <h1 class="title"><b>Estamos chegando...</b></h1>
+              <p>Saunas infravermelho ao seu alcance.
+                Sudore alia tecnologia e saúde através dos raios infravermelhos e o uso terapêutico da cromoterapia.</p>
 
-              <div class="email-input-area">
-                <form method="post">
-                  <input class="email-input" name="email" type="text" placeholder="Enter your email" />
-                  <button class="submit-btn" name="submit" type="submit"><b>NOTIFY US</b></button>
+              {% comment %} <div class="email-input-area">
+                <form name="">
+                  <input class="email-input" name="email" type="email" placeholder="Digite seu email" />
+                  <button class="submit-btn" name="submit" type="submit"><b>ENVIAR</b></button>
                 </form>
               </div><!-- email-input-area -->
 
-              <p class="post-desc">Sign up now to get early notification of our lauch date!</p>
+              <p class="post-desc">Assine nossa lista de espera!</p> {% endcomment %}
             </div><!-- main-content -->
           </div><!-- display-table-cell -->
         </div><!-- display-table -->
 
         <ul class="footer-icons">
           <li>Stay in touch : </li>
-          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-          <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-          <li><a href="#"><i class="ion-social-pinterest"></i></a></li>
+          <li><a href="https://facebook.com/{{ site.social.facebook }}"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="https://instagram.com/{{ site.social.instagram }}"><i class="ion-social-instagram-outline"></i></a></li>
         </ul>
 
       </section><!-- left-section -->
 
-      <section class="right-section" style="background-image: url({% asset 'common-img/countdown-1-1000x1000.jpg' @path %}">
+      <section class="right-section" style="background-image: url({% asset 'common-img/coming_soon_8-1000x1000.jpg' @path %}">
 
         <div class="display-table center-text">
           <div class="display-table-cell">
 
 
             <div id="rounded-countdown">
-              <div class="countdown" data-remaining-sec="2000000"></div>
+              <div class="countdown" data-remaining-sec=""></div>
             </div>
 
           </div><!-- display-table-cell -->
@@ -114,7 +127,6 @@
 
   <!-- <script src="common-js/scripts.js"></script> -->
   {% asset 'common-js/scripts.js' %}
-
 
 </body>
 

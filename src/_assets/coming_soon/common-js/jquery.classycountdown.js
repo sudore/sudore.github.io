@@ -20,10 +20,10 @@
             labels: true,
             labelsOptions: {
                 lang: {
-                    days: 'Days',
-                    hours: 'Hours',
-                    minutes: 'Minutes',
-                    seconds: 'Seconds'
+                    days: 'Dias',
+                    hours: 'Horas',
+                    minutes: 'Minutos',
+                    seconds: 'Segundos'
                 },
                 style: 'font-size: 0.5em;'
             },
@@ -222,7 +222,7 @@
                                 gauge: {
                                     thickness: 0.01,
                                     bgColor: "rgba(0,0,0,0.05)",
-                                    fgColor: "#2980b9"
+                                    fgColor: "#1abc9c"
                                 },
                                 textCSS: 'font-family:\'Open Sans\';font-weight:300;color:#34495e;'
                             },
@@ -230,7 +230,7 @@
                                 gauge: {
                                     thickness: 0.01,
                                     bgColor: "rgba(0,0,0,0.05)",
-                                    fgColor: "#8e44ad"
+                                    fgColor: "#1abc9c"
                                 },
                                 textCSS: 'font-family:\'Open Sans\';font-weight:300;color:#34495e;'
                             },
@@ -238,7 +238,7 @@
                                 gauge: {
                                     thickness: 0.01,
                                     bgColor: "rgba(0,0,0,0.05)",
-                                    fgColor: "#f39c12"
+                                    fgColor: "#1abc9c"
                                 },
                                 textCSS: 'font-family:\'Open Sans\';font-weight:300;color:#34495e;'
                             }
@@ -262,7 +262,7 @@
                                 gauge: {
                                     thickness: 0.03,
                                     bgColor: "rgba(0,0,0,0.05)",
-                                    fgColor: "#2980b9"
+                                    fgColor: "#1abc9c"
                                 },
                                 textCSS: 'font-family:\'Open Sans\';font-weight:300;color:#34495e;'
                             },
@@ -270,7 +270,7 @@
                                 gauge: {
                                     thickness: 0.03,
                                     bgColor: "rgba(0,0,0,0.05)",
-                                    fgColor: "#8e44ad"
+                                    fgColor: "#1abc9c"
                                 },
                                 textCSS: 'font-family:\'Open Sans\';font-weight:300;color:#34495e;'
                             },
@@ -278,7 +278,7 @@
                                 gauge: {
                                     thickness: 0.03,
                                     bgColor: "rgba(0,0,0,0.05)",
-                                    fgColor: "#f39c12"
+                                    fgColor: "#1abc9c"
                                 },
                                 textCSS: 'font-family:\'Open Sans\';font-weight:300;color:#34495e;'
                             }
@@ -302,7 +302,7 @@
                                 gauge: {
                                     thickness: 0.1,
                                     bgColor: "rgba(255,255,255,.3)",
-                                    fgColor: "#2980b9"
+                                    fgColor: "#1abc9c"
                                 },
                                 textCSS: 'font-weight:600;color:#fff;'
                             },
@@ -310,7 +310,7 @@
                                 gauge: {
                                     thickness: 0.1,
                                     bgColor: "rgba(255,255,255,.3)",
-                                    fgColor: "#8e44ad"
+                                    fgColor: "#1abc9c"
                                 },
                                 textCSS: 'font-weight:600;color:#fff;'
                             },
@@ -318,7 +318,7 @@
                                 gauge: {
                                     thickness: 0.1,
                                     bgColor: "rgba(255,255,255,.3)",
-                                    fgColor: "#f39c12"
+                                    fgColor: "#1abc9c"
                                 },
                                 textCSS: 'font-weight:600;color:#fff;'
                             }
@@ -343,7 +343,7 @@
                                 gauge: {
                                     thickness: 0.25,
                                     bgColor: "rgba(0,0,0,0.05)",
-                                    fgColor: "#2980b9",
+                                    fgColor: "#1abc9c",
                                     lineCap: 'round'
                                 },
                                 textCSS: 'font-family:\'Open Sans\';font-weight:300;color:#34495e;'
@@ -352,7 +352,7 @@
                                 gauge: {
                                     thickness: 0.25,
                                     bgColor: "rgba(0,0,0,0.05)",
-                                    fgColor: "#8e44ad", lineCap: 'round'
+                                    fgColor: "#1abc9c", lineCap: 'round'
                                 },
                                 textCSS: 'font-family:\'Open Sans\';font-weight:300;color:#34495e;'
                             },
@@ -360,7 +360,7 @@
                                 gauge: {
                                     thickness: 0.25,
                                     bgColor: "rgba(0,0,0,0.05)",
-                                    fgColor: "#f39c12",
+                                    fgColor: "#1abc9c",
                                     lineCap: 'round'
                                 },
                                 textCSS: 'font-family:\'Open Sans\';font-weight:300;color:#34495e;'

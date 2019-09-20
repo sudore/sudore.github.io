@@ -106,7 +106,7 @@ b.light-color{ color: #444; }
 
 .left-section{ float: left; width: 50%; position: relative; }
 
-.left-section .logo{ position: absolute; top: 40px; height: 30px; }
+.left-section .logo{ position: absolute; top: 60px; height: 70px;  }
 
 .left-section .logo img{ height: 100%; width: auto; } 
 
@@ -147,7 +147,7 @@ b.light-color{ color: #444; }
 .left-section .footer-icons > li > a > i[class*="facebook"]{ color: #2A61D6; border-color: #2A61D6; }
 .left-section .footer-icons > li > a > i[class*="twitter"]{ color: #3AA4F8; border-color: #3AA4F8; }
 .left-section .footer-icons > li > a > i[class*="google"]{ color: #F43846; border-color: #F43846; }
-.left-section .footer-icons > li > a > i[class*="instagram"]{ color: #8F614A; border-color: #8F614A; }
+.left-section .footer-icons > li > a > i[class*="instagram"]{ color: rgb(192, 26, 178); border-color: rgb(192, 26, 178); }
 .left-section .footer-icons > li > a > i[class*="pinterest"]{ color: #E1C013; border-color: #E1C013; }
 
 
@@ -159,7 +159,7 @@ b.light-color{ color: #444; }
 .right-section{ position: absolute; top: 0; bottom: 0; right: 0; width: 50%; background-size: cover; z-index: 1; }
 
 .right-section:after{ content:''; position: absolute; top: 0; bottom: 0; right: 0; left: 0; z-index: -2;
-	opacity: .3; background: linear-gradient(to right, #23074d, #cc5333); }
+	opacity: .35; background: linear-gradient(to right, #1a589e, #cc5333); }
 
 #rounded-countdown{ width: 80%; margin: 0 auto; }
 
