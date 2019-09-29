@@ -1,20 +1,26 @@
-<nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #fff">
+<!-- Navbar -->
+<nav class="sudore-nav navbar fixed-top navbar-expand-lg navbar-dark">
+
+    <!--Container-->
     <div class="container">
-        <a class="navbar-brand" href="{{ site.url }}">Navbar</a>
-        <ul class="navbar-nav mr-auto mt-lg-0 d-inline">
-                <li class="nav-item"><a class="nav-link" href="https://facebook.com/{{ site.social.facebook }}"><i class="ion-social-facebook"></i></a></li>
-                <li class="nav-item ml-sm-2"><a class="nav-link" href="https://instagram.com/{{ site.social.instagram }}"><i class="ion-social-instagram-outline"></i></a></li>
-            </ul>
+
+        <!-- Navbar Brand -->
+        <a class="navbar-brand" href="{{ site.url }}"
+            title="Home"><img src="{% asset logo-sudore-sauna-express-bg.svg @path %}" alt="Logo"></a>
+        <!-- navbar Brand end -->
+
+
+        <!-- Responsive Toggle Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
+        </button> <!-- Responsive Toggle Button end -->
 
+
+        <!-- Collapse Content -->
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            
-            
-            
-            
+
+            <!-- Navbar Menu -->
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -26,20 +32,23 @@
                     <a class="nav-link disabled" href="#">Disabled</a>
                 </li>
                 <a class="nav-link disabled" href="#">Disabled</a>
-            </ul>
+            </ul> <!-- Navbar Menu end -->
 
-            <ul class="navbar-nav ml-3 mt-2 mt-lg-0">
-                <a class="btn btn-primary py-2" href="#" role="button">AGENDAR</a>
-            </ul>
+            <!-- Navbar Call to Action -->
+            <ul class="navbar-nav mx-3 mt-2 mt-lg-0">
+                <a class="btn btn-info py-2" href="{{ site.reservio_url }}" role="button">AGENDAR <i class="ion-clock"></i></a>
+            </ul> <!-- Navbar Call to Action end -->
 
+            <!-- Social Media Links -->
+            <ul class="navbar-nav mt-lg-0 d-inline">
+                <li class="nav-item"><a class="nav-link" target="_blank"
+                    href="https://facebook.com/{{ site.social.facebook }}"><i
+                            class="ion-social-facebook"></i></a></li>
+                <li class="nav-item ml-sm-2"><a class="nav-link" target="_blank"
+                        href="https://instagram.com/{{ site.social.instagram }}"><i
+                            class="ion-social-instagram-outline"></i></a></li>
+            </ul> <!-- Social Media Links end -->
 
-
-        </div>
-
-        
-    </div>
-</nav>
-
-
-
-
+        </div> <!-- Collapse Content end -->
+    </div> <!-- Container end -->
+</nav> <!-- Navbar end -->
