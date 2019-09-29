@@ -1,5 +1,5 @@
 <!-- Navbar -->
-<nav class="sudore-nav navbar fixed-top navbar-expand-lg navbar-dark">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="#navbar-example">
 
     <!--Container-->
     <div class="container">
@@ -22,21 +22,34 @@
 
             <!-- Navbar Menu -->
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link font-weight-bold" href="#beneficios">Benefícios</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                <li class="nav-item font-weight-bold">
+                    <a class="nav-link" href="#comofunciona">Como Funciona</a>
                 </li>
-                <a class="nav-link disabled" href="#">Disabled</a>
+                <li class="nav-item font-weight-bold">
+                    <a class="nav-link" href="#encontre">Encontre</a>
+                </li>
+
+                <!-- Dropdown Menu -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link font-weight-bold dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Mais
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Perguntas Frequentes</a>
+                      <a class="dropdown-item" href="#">Sobre a Sudore</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Contato</a>
+                    </div>
+                  </li> <!-- Dropdown Menu end -->
+                
             </ul> <!-- Navbar Menu end -->
 
             <!-- Navbar Call to Action -->
             <ul class="navbar-nav mx-3 mt-2 mt-lg-0">
-                <a class="btn btn-info py-2" href="{{ site.reservio_url }}" role="button">AGENDAR <i class="ion-clock"></i></a>
+                <a class="btn btn-dark py-2 text-light font-weight-bold" href="{{ site.reservio_url }}" role="button">AGENDAR <i class="ion-clock"></i></a>
             </ul> <!-- Navbar Call to Action end -->
 
             <!-- Social Media Links -->
