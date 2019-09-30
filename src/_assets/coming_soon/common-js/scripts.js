@@ -13,7 +13,7 @@
 	//ROUNDED TIMES COUNTDOWN
 	
 	if(isExists('#rounded-countdown')){
-		var inauguracao = new Date('September 30, 2019 09:00:00');
+		var inauguracao = new Date('October 3, 2019 09:00:00');
 		var remainingSec = (Math.round(inauguracao.getTime()) - Math.round($.now())) / 1000;
 		console.log($.now())
 		console.log(inauguracao.getTime() / 1000)
