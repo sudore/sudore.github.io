@@ -26,11 +26,3 @@
 //       } // End if
 //     });
 //   });
-
-
-$(document).ready(function(){
-  var bgleft = document.querySelector('.left-side');
-
-  bgleft.style.backgroundImage = 'rgba(0,0,139, 0.7)';
-
-});

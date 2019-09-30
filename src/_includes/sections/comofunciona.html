@@ -56,29 +56,74 @@
                       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
                     </ol>
                     <div class="carousel-inner" role="listbox">
-                      <!-- Slide One - Set the background image for this slide in the line below -->
-                      <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/LAaSoL0LrYs/1920x1080')">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h2 class="display-4">First Slide</h2>
-                          <p class="lead">This is a description for the first slide.</p>
-                        </div>
+                      
+                        <!-- Slide 1 - Set the background image for this slide in the line below -->
+                      <div class="carousel-item active" style="background-image: linear-gradient(to right, rgba(220,20,60, 0.5),rgba(255,0,0, 0.5)), url({% asset bg-1.jpg @path %})">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h2 class="display-4">Vermelho</h2>
+                              <p class="h3 text-light">O Grande Energizador</p>
+                              <p class="lead text-light font-weight-bold">A cor vermelha faz maravilhas no seu corpo para aumentar a sua energia!</p>
+                            </div>
                       </div>
-                      <!-- Slide Two - Set the background image for this slide in the line below -->
-                      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h2 class="display-4">Second Slide</h2>
-                          <p class="lead">This is a description for the second slide.</p>
-                        </div>
+
+                      <!-- Slide 2 - Set the background image for this slide in the line below -->
+                      <div class="carousel-item" style="background-image: linear-gradient(to right, rgba(255,165,0, 0.5),rgba(255,165,0, 0.6)), url({% asset bg-1.jpg @path %})">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h2 class="display-4">Laranja</h2>
+                              <p class="h3 text-light">O Raio da Sabedoria</p>
+                              <p class="lead text-light font-weight-bold">Um estimulante emocional, ajuda a remover inibições.</p>
+                            </div>
                       </div>
-                      <!-- Slide Three - Set the background image for this slide in the line below -->
-                      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h2 class="display-4">Third Slide</h2>
-                          <p class="lead">This is a description for the third slide.</p>
-                        </div>
+
+                      <!-- Slide 3 - Set the background image for this slide in the line below -->
+                      <div class="carousel-item" style="background-image: linear-gradient(to right, rgba(46,139,87, 0.5),rgba(60,179,113, 0.6)), url({% asset bg-1.jpg @path %})">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h2 class="display-4">Verde</h2>
+                              <p class="h3 text-light">A Cor Universal da Cura</p>
+                              <p class="lead text-light font-weight-bold">Na dúvida, vá sempre de verde!</p>
+                            </div>
                       </div>
+                      
+                      <!-- Slide 4 - Set the background image for this slide in the line below -->
+                      <div class="carousel-item" style="background-image: linear-gradient(to right, rgba(0,0,205, 0.5),rgba(30,144,255, 0.6)), url({% asset bg-1.jpg @path %})">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h2 class="display-4">Azul</h2>
+                              <p class="h3 text-light">O Calmante Natural</p>
+                              <p class="lead text-light font-weight-bold">Efeito pacificador, relaxamento mental.</p>
+                            </div>
+                      </div>
+                      
+                      
+                      
+                      <!-- Slide 5 - Set the background image for this slide in the line below -->
+                      <div class="carousel-item" style="background-image: linear-gradient(to right, rgba(199, 199, 23, 0.5),rgba(211, 211, 12, 0.5)), url({% asset bg-1.jpg @path %})">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h2 class="display-4">Amarelo</h2>
+                              <p class="h3 text-light">O Inspirador</p>
+                              <p class="lead font-weight-bold text-light">Precisando de um empurrão na criatividade?</p>
+                            </div>
+                      </div>
+
+
+
+                      <!-- Slide 6 - Set the background image for this slide in the line below -->
+                      <div class="carousel-item" style="background-image: linear-gradient(to right, rgba(218,112,214, 0.5),rgba(153,50,204, 0.6)), url({% asset bg-1.jpg @path %})">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h2 class="display-4">Púrpura</h2>
+                              <p class="h3 text-light">O Revitalizador de Mentes</p>
+                              <p class="lead text-light font-weight-bold">Sentindo sua mente sobrecarregada?</p>
+                            </div>
+                      </div>
+
+
+                    
+
+
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -95,10 +140,15 @@
             </div> <!-- col 1 carousel end-->
 
             <!-- col 2 Cromoterapia-->
-            <div class="col lg-3">
-                <h1>Um título</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem ab beatae delectus odit pariatur impedit sapiente, nemo quia deleniti nesciunt perferendis vitae ut, adipisci sequi mollitia architecto distinctio debitis omnis?</p>
+            <div class="col-lg-3 pt-4 d-flex">
 
+                <div class="align-self-center">
+
+                    <h1 class="h1 mt-4 sudore-green">Cromoterapia</h1>
+                    <p class="mb-2">Cromoterapia é um método que, conhecido a muitos séculos pela humanidade, utiliza as cores visíveis da luz eletromagnética para tratar diversos problemas de saúde.
+                            Desde 2018, no Brasil, o <b class="font-weight-bold">Ministério da Saúde, incluiu a prática da Cromoterapia no Sistema único de Saúde (SUS)</b>, como parte da <b class="font-weight-bold">Política Nacional de Práticas Integrativas e Complementares</b> (PNPIC).</p>
+                            <a class="btn btn-outline-danger py-2 font-weight-bold" href="{{ site.reservio_url }}" role="button">AGENDAR <i class="ion-clock"></i></a>
+                </div>
             </div> <!-- col 2 Cromoterapia end -->
 
         </div> <!-- row end -->
