@@ -1,6 +1,28 @@
 //= require_self
 
 
+// Navbar invisible
+
+$(document).ready(function () {
+
+    //  Cache dos caminhos
+    var $navBar = '#main-nav';
+
+    $('body').scroll(function(){
+        if ($('body').scrollTop() > 20) {
+            $($navBar).removeClass('navbar-dark').addClass('sudore-nav navbar-light');
+            console.log('if is working!');
+        } else {
+            $($navBar).removeClass('sudore-nav navbar-light').addClass('navbar-dark');
+            console.log('else!!!');
+        }
+    });
+
+
+})
+
+
+
 // // Smooth Scroll
 // $(document).ready(function(){
 //     // Add smooth scrolling to all links
