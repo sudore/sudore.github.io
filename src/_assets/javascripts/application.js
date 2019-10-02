@@ -1,11 +1,9 @@
 //= require_self
 
 
-// Navbar invisible
-
 $(document).ready(function () {
 
-    //  Cache dos caminhos
+    //  NavBar Effect
     var $navBar = '#main-nav';
 
     $('body').scroll(function(){
