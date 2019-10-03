@@ -7,10 +7,13 @@
       browser. Please <a href="http://browsehappy.com/">upgrade your browser</a>
       to improve your experience.</p>
   <![endif]-->
-
+  
+  {% include components/navbar.html %}
   <main role="main">
     {{ content }}
   </main>
+  {% include sections/footer.html %}
+
 
   {% include javascripts.html %}
 </body>
