@@ -14,20 +14,30 @@
 
 
                 <div class="modal-body">
-                    <p class="text-muted">Obrigado pelo interesse em agendar uma sessão com a gente!</p>
-                    <p class="text-muted mb-2">Agende você mesmo online ou fale com nosso atendimento.</p>
+                    <div class="modal-body-head py-2">
+                        <!-- <p class="">Agende online ou fale com nosso atendimento.</p> -->
+                        <p><strong>Agende agora mesmo uma sessão</strong> em nossa plataforma, ou, se preferir, fale com o nosso atendimento, teremos o maior prazer em lhe ajudar!</p>
+                    </div>
 
+                    <!-- <style>
+                        .agendamento-left::after {
+                            content: "ou";
+                            position: absolute;
+                            top: 0%;
+                            right: -10px;
+                        }
+                    </style> -->
 
-                    <div class="row py-2">
-                        <div class="col-md-6 border-right border-muted mb-3">
+                    <div class="row py-4">
+                        <div class="col-md-6 border-right border-muted mb-3 agendamento-left">
                             <h2 class="h4">Agendamento Online</h2>
                             <p class="mb-2">Selecione o botão abaixo para realizar um agendamento online.</p>
                             <a class="btn btn-primary btn-block py-2 font-weight-bold" target="_blank" href="{{ site.reservio_url }}/booking/business/service" role="button"><i class="ion-calendar"></i> AGENDAR ONLINE</a>
                         </div>
                         <div class="col-md-6">
-                            <h2 class="h4">Falar com Atendimento</h2>
-                            <p class="mb-2">Selecione o botão abaixo para falar com nosso atendimento via WhatsApp.</p>
-                            <a class="btn btn-success btn-block py-2 font-weight-bold" target="_blank" href="https://wa.me/5561999382956" role="button"><i class="ion-social-whatsapp"></i> CONTACTAR</a>
+                            <h2 class="h4">Fale com Atendimento</h2>
+                            <p class="mb-2">Selecione o botão abaixo para contactar nosso atendimento via WhatsApp.</p>
+                            <a class="btn btn-success btn-block py-2 font-weight-bold" target="_blank" href="https://wa.me/5561999382956" role="button"><i class="ion-social-whatsapp-outlined"></i> CONTACTAR ATENDIMENTO</a>
                         </div>
                     </div>
                 </div>
