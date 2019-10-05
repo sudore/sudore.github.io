@@ -15,8 +15,8 @@
             font-size: 1.5em
     
     .right-side
-        height: 45vh
-        background-image: linear-gradient(to right, rgba(0,0,0, 0.4),rgba(0,0,0, 0.4)), asset_url("bg-right-side.jpg")
+        height: 60vh
+        background-image: linear-gradient(to right, rgba(0,0,0, 0.4),rgba(0,0,0, 0.4)), asset_url("bg-rocks-2.jpg") //asset_url("bg-right-side.jpg")
         background-size: cover
 
     .title
@@ -49,15 +49,14 @@
 
 #cromoterapia
     .cromoterapia-carousel-column
-        height: 105vh
+        height: 50vh
         min-height: 350px
 
     .cromoterapia-content-column
-        height: 105vh
-        min-height: 350px
+        min-height: 300px
 
     .carousel-item 
-        height: 105vh
+        height: 50vh
         min-height: 350px
         background: no-repeat center center scroll
         -webkit-background-size: cover
@@ -65,6 +64,13 @@
         -o-background-size: cover
         background-size: cover
 
+    @media (min-width: 768px)
+        .cromoterapia-carousel-column
+            height: 100vh
+        .cromoterapia-content-column
+            height: 100vh
+        .carousel-item 
+            height: 100vh
 
     // #pills-home-tab.active
     //     background-color: red
@@ -86,3 +92,11 @@
 
     #v-pills-purpura-tab.active
         background-color: rgb(186,85,211)
+
+
+    
+#summary
+    background: linear-gradient(135deg,  #1e5799 0%,#242f4d 0%,#476599 40%,#6ec5ca 100%)
+
+    .aquecimento
+        max-width: 70px
