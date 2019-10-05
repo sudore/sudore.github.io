@@ -5,10 +5,14 @@
     <div class="container">
 
         <!-- Navbar Brand -->
-        <a class="navbar-brand" href="{{ site.url }}"
-            title="Home"><img src="{% asset logo-sudore-sauna-express-bg.svg @path %}" alt="Logo"></a>
+        <a class="navbar-brand" href="{{ site.url }}" title="Home"><img
+                src="{% asset logo-sudore-sauna-express-bg.svg @path %}" alt="Logo"></a>
         <!-- navbar Brand end -->
 
+
+        <ul class="navbar-nav mt-0 mt-lg-0">
+                <button type="button" class="btn btn-danger py-2 font-weight-bold text-light d-md-none" data-toggle="modal" data-target="#sudoreModalCenter">AGENDAR</button>
+        </ul> <!-- Navbar Call to Action end -->
 
         <!-- Responsive Toggle Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
@@ -34,32 +38,33 @@
 
                 <!-- Dropdown Menu -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Mais
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Mais
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="{{ site.url }}#infravermelho">Infravermelho</a>
                         <a class="dropdown-item" href="{{ site.url }}#cromoterapia">Cromoterapia</a>
-                      <a class="dropdown-item" href="{{ site.url }}#pricetable">Valores</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="{% link faq.html %}">Dúvidas Frequentes</a>
+                        <a class="dropdown-item" href="{{ site.url }}#pricetable">Valores</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="{% link faq.html %}">Dúvidas Frequentes</a>
                     </div>
-                  </li>
-                  <!-- Dropdown Menu end -->
-                
+                </li>
+                <!-- Dropdown Menu end -->
+
             </ul> <!-- Navbar Menu end -->
 
             <!-- Navbar Call to Action -->
             <ul class="navbar-nav mx-3 mt-2 mt-lg-0">
-                <a class="btn btn-danger py-2 font-weight-bold" href="{{ site.reservio_url }}/booking/business/service" role="button">AGENDAR <i class="ion-clock"></i></a>
+                <button type="button" class="btn btn-danger py-2 font-weight-bold text-light d-none d-md-inline" data-toggle="modal" data-target="#sudoreModalCenter"><i class="ion-ios-clock"></i> AGENDAR</button>
             </ul> <!-- Navbar Call to Action end -->
 
             <!-- Social Media Links -->
             <ul class="navbar-nav mt-lg-0 d-inline">
-                <li class="nav-item"><a class="nav-link" target="_blank"
-                    href="https://facebook.com/{{ site.social.facebook }}"><i
-                            class="ion-social-facebook"></i></a></li>
-                <li class="nav-item ml-sm-2"><a class="nav-link" target="_blank"
+                <li class="nav-item d-block d-sm-inline-block"><a class="nav-link" target="_blank"
+                        href="https://facebook.com/{{ site.social.facebook }}"><i class="ion-social-facebook"></i></a>
+                </li>
+                <li class="nav-item ml-sm-2 d-block d-sm-inline-block"><a class="nav-link" target="_blank"
                         href="https://instagram.com/{{ site.social.instagram }}"><i
                             class="ion-social-instagram-outline"></i></a></li>
             </ul> <!-- Social Media Links end -->
