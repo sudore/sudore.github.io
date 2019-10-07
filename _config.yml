@@ -25,7 +25,9 @@ plugins:
   - jekyll-assets
   - jekyll-sitemap
 
-ga_analytics: # Add Google Analytics tracking code
+ga_analytics: 149465674-1
+
+fb_pixel: 2363971710394948
 
 social:
   facebook: Sudore-Express-327004091346998
