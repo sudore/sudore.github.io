@@ -25,7 +25,7 @@ plugins:
   - jekyll-assets
   - jekyll-sitemap
 
-ga_analytics: 149465674-1
+ga_analytics: UA-149465674-1
 
 fb_pixel: 2363971710394948
 
