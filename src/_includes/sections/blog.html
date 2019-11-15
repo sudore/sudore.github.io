@@ -1,0 +1,62 @@
+<section id="blog">
+  <div class="container">
+
+
+      <!-- Row One -->
+      <div class="row mb-lg-5">
+
+        <div class="mr-auto col-md-12">
+          <!-- Col Headline -->
+          <h1 class="h2 text-light"><br><span class="sudore-green">Blog</span> <span
+              class="sudore-orange">Sudore</span></h1>
+        </div> <!-- Col Headline end -->
+      </div> <!-- Row One end -->
+
+      <!-- Row 2 -->
+      <div class="row">
+
+        <!-- Col Description -->
+        <div class="col-lg-3 col-sm-12 mb-4">
+          <p class="text-light">Bem-vindo!<br>Lorem Ipsum Dolor ipsum lorem homunculi preponere.</p>
+
+        </div> <!-- Col Description End -->
+
+        <!-- Col Features-->
+        <div class="col-lg-9 col-sm-12 right-side">
+
+
+        <!-- Row -->
+        <div class="row">
+
+        	
+          {% for post in site.posts %}
+
+          <!-- Col -->
+          <div class="col-lg-6 col-sm-12">
+            <!-- Card -->
+            <a href="{{ post.url }}">
+            <div class="card mb-4">
+              <img src="{% asset posts/{{post.thumbnail}} @path %}" class="card-img-top" alt="placeholder">
+              <div class="card-body">
+                <h5 class="card-title">{{ post.title }}</h5>
+                <p class="card-text text-muted">{{ post.description }}</p>
+              </div>
+            </div> <!-- Card end -->
+          </a> <!-- link end --> 
+          </div> <!-- Col end -->
+
+          {% endfor %}
+            
+
+        </div> <!-- Row end -->
+        	
+
+
+        </div> <!-- Col Features end -->
+
+      </div> <!-- Row 2 end -->
+
+
+  </div>
+
+</section>

@@ -13,9 +13,35 @@
   {% include components/modal.html %}
   {% include components/backtotop.html %}
 
-  <main role="main">
-    {{ content }}
-  </main>
+  <section id="post">
+
+    <main role="main">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-sm-12 col-lg-8 offset-lg-2">
+
+            <h1 class="h2">{{ page.title }}</h1>
+            <p class="small text-muted font-weight-bold mb-2">
+              {{ page.date | date: '%d do %m de %Y' }}
+            </p>
+
+
+            {{ content }}
+
+
+          </div> <!-- col -->
+
+        </div> <!-- row  end-->
+
+      </div> <!-- contaienr end -->
+
+      
+    </main>
+
+  </section>
 
   {% include sections/footer-light.html %}
 
