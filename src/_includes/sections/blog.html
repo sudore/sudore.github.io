@@ -35,8 +35,8 @@
           <div class="col-lg-6 col-sm-12">
             <!-- Card -->
             <a href="{{ post.url }}">
-            <div class="card mb-4">
-              <img src="{% asset posts/{{post.thumbnail}} @path %}" class="card-img-top" alt="placeholder">
+            <div class="card shadow-lg mb-4">
+              <img src="{% asset posts/{{post.thumbnail}} @path %}" class="card-img-top" alt="thumbnail">
               <div class="card-body">
                 <h5 class="card-title">{{ post.title }}</h5>
                 <p class="card-text text-muted">{{ post.description }}</p>
