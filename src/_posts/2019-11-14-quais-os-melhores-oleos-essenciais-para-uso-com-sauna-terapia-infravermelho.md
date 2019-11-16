@@ -24,7 +24,7 @@ Tanto os óleos essenciais quanto a aromaterapia vem sendo usados em diversas cu
 
 
 
-{% asset artigo01/02_melaleuca.jpg class="mb-3" %}
+{% asset artigo01/02.jpg class="mb-3" %}
 
 
 
@@ -33,7 +33,7 @@ Tanto os óleos essenciais quanto a aromaterapia vem sendo usados em diversas cu
 {:.mb-3}
 A Rosa Mosqueta é um óleo essencial anti-idade que muito usado no tratamento da pele. Alguns dos benefícios mais conhecidos são: hidratante, emulsão, ajuda na esfoliação, clarifica a pele, aumenta a formação de colágeno, reduz a inflamação da pele, protege contra os danos do sol e redução na hiperpigmentação.
 
-{% asset artigo01/_artigo01_imagem03_rosa_mosqueta.jpg class="mb-3" %}
+{% asset artigo01/03.jpg class="mb-3" %}
 
 
 
@@ -43,7 +43,7 @@ A Rosa Mosqueta é um óleo essencial anti-idade que muito usado no tratamento d
 
 Algumas pessoas podem não gostar muito do cheiro cítrico como limão e laranja, por exemplo, até porque são muito utilizados em produtos de limpeza. Mas a verdade é que óleos essenciais de limão e laranja são a melhor escolha para iniciar o dia com muita energia e disposição! Além disso, os óleos cítricos possuem propriedades antidepressivas e também anti-inflamatório. Por causa de sua ação energizante, não é recomendável utilizá-lo antes de ir para cama.
 
-{% asset artigo01/_artigo01_imagem04_rosa_citrus.jpg class="mb-3" %}
+{% asset artigo01/04.jpg class="mb-3" %}
 
 
 
@@ -52,7 +52,7 @@ Algumas pessoas podem não gostar muito do cheiro cítrico como limão e laranja
 
 Subestimado e visto com até certo preconceito por ser conhecido como uma espécie de orégano na cozinha, o óleo essencial de tomilho é muito utilizado como repelente de insetos, tratamento de algumas infecções e problemas de pele, bem como para tratar infecções respiratórias e tosses. Possui também propriedades antimicróbicas. 
 
-{% asset artigo01/_artigo01_imagem05_tomilho.jpg class="mb-3" %}
+{% asset artigo01/05.jpg class="mb-3" %}
 
 
 
@@ -61,7 +61,7 @@ Subestimado e visto com até certo preconceito por ser conhecido como uma espéc
 
 Muito utilizado para dores de cabeça e musculares, também é relacionado à clareza mental e problemas com cólicas e má digestão. O óleo essencial de alecrim, com o seu cheiro único e inconfundível, é um dos mais agradáveis e relaxante dentre todos os demais.
 
-{% asset artigo01/_artigo01_imagem06_alecrim.jpg class="mb-3" %}
+{% asset artigo01/06.jpg class="mb-3" %}
 
 
 
@@ -70,7 +70,7 @@ Muito utilizado para dores de cabeça e musculares, também é relacionado à cl
 
 A hortelã-pimenta é um estimulante. Ela é conhecida por aumentar a energia e dar aquele despertar logo pela manhã. O óleo essencial de hortelã-pimenta também tem algumas propriedades antiespasmódicas, o que significa que ele pode ser usado para ajudar a remediar náuseas ou problemas estomacais semelhantes.
 
-{% asset artigo01/_artigo01_imagem07_hortela_pimenta.jpg class="mb-3" %}
+{% asset artigo01/07.jpg class="mb-3" %}
  
 
 
@@ -78,7 +78,7 @@ A hortelã-pimenta é um estimulante. Ela é conhecida por aumentar a energia e 
 
 Muito conhecida na nossa culinária desde os tempos de Pedro Álvares de Cabral, na sua forma de óleo essencial a nossa canela é muito utilizada para concentração e foco. É também um estimulante natural que ajuda a acelerar o metabolismo, além de ajudar com o humor, possui propriedades anti-inflamatórias.
 
-{% asset artigo01/_artigo01_imagem08_canela.jpg class="mb-3" %} 
+{% asset artigo01/08.jpg class="mb-3" %} 
 
 
 
@@ -86,7 +86,7 @@ Muito conhecida na nossa culinária desde os tempos de Pedro Álvares de Cabral,
 
 Usado como incenso em rituais religiosos no Egito e Oriente Médio desde a antiguidade, é um óleo essencial que possui propriedades antienvelhecimento. Também é muito utilizado no tratamento de problemas com indigestão.
 
-{% asset artigo01/_artigo01_imagem09_olibano_sacro.jpg class="mb-3" %} 
+{% asset artigo01/09.jpg class="mb-3" %} 
 
 
 
@@ -94,7 +94,7 @@ Usado como incenso em rituais religiosos no Egito e Oriente Médio desde a antig
 
 Antibacteriano, antifungos, estimulador da circulação, desintoxicante e com propriedades de redução da dor. O óleo essencial de bétula também tem sido utilizado para eliminar os sintomas de micose e eczema.
 
-{% asset artigo01/_artigo01_imagem10_betula.jpg class="mb-3" %}
+{% asset artigo01/10.jpg class="mb-3" %}
 
 
 
@@ -102,7 +102,7 @@ Antibacteriano, antifungos, estimulador da circulação, desintoxicante e com pr
 
 O Patchouli é bem conhecido por aliviar a ansiedade, reduzir o inchaço, proporcionar relaxamento, combater a depressão, reduzir a fadiga e ajudar a equilibrar os hormônios. 
 
-{% asset artigo01/_artigo01_imagem11_patchouli.jpg class="mb-3" %}
+{% asset artigo01/11.jpg class="mb-3" %}
 
 
 
@@ -110,7 +110,7 @@ O Patchouli é bem conhecido por aliviar a ansiedade, reduzir o inchaço, propor
 
 Sem dúvida alguma o óleo essencial de camomila é de longe o mais relaxante de todos. O essencial de camomila ajuda com os problemas de digestão e náuseas, também alivia dores nos nervos e artrite, além de melhorar o seu sono recuperador. Ideal após um longo dia de trabalho ou mesmo antes de ir para a cama.
 
-{% asset artigo01/_artigo01_imagem12_camomila.jpg class="mb-3" %}
+{% asset artigo01/12.jpg class="mb-3" %}
 
 
 
@@ -119,7 +119,7 @@ Sem dúvida alguma o óleo essencial de camomila é de longe o mais relaxante de
 
 O óleo essencial de Junípero, também conhecido como Zimbro, é extraído de amoras de zimbro que são conhecidas como um potente antioxidante. Como óleo o junípero é um anti-inflamatório que auxilia no detox e no funcionamento ideal dos nossos órgãos. Com seu aroma amadeirado e doce, tem sido frequentemente usado para ajudar na digestão e até mesmo em problemas com cálculos renais. 
 
-{% asset artigo01/_artigo01_imagem13_zuniper.jpg class="mb-3" %}
+{% asset artigo01/13.jpg class="mb-3" %}
 
 
 
@@ -127,7 +127,7 @@ O óleo essencial de Junípero, também conhecido como Zimbro, é extraído de a
 
 O pinho é conhecido por reduzir a dor nas articulações, aliviar dores de cabeça, melhorar o humor, ajudar na constipação e congestionamentos e também tratar a acne. Não é um óleo indicado para se utilizar antes de dormir, pois é energético, sendo mais indicado o seu uso pelas manhãs.
 
-{% asset artigo01/_artigo01_imagem14_pinho.jpg class="mb-3" %}
+{% asset artigo01/14.jpg class="mb-3" %}
 
 
 
@@ -135,7 +135,7 @@ O pinho é conhecido por reduzir a dor nas articulações, aliviar dores de cabe
 
 O óleo essencial de lavanda, além de ser um calmante como o de camomila, aliviar dores de cabeça e melhorar as funções cerebrais, também melhora a pele, pois possui antioxidantes antienvelhecimento. É um óleo essencial restaurativo. Perfeito para o uso antes de dormir, pois, além de acalmar, age direto na restauração das células da sua pele.
 
-{% asset artigo01/_artigo01_imagem15_lavanda.jpg class="mb-3" %}
+{% asset artigo01/15.jpg class="mb-3" %}
 
 
 
@@ -143,7 +143,7 @@ O óleo essencial de lavanda, além de ser um calmante como o de camomila, alivi
 
 É disparado o mais requisitado dentre os óleos essenciais na sauna terapia de infravermelho. Com o seu tão prazeroso cheiro, o eucalipto é utilizado na ajuda contra a exaustão mental e também para a limpeza do sistema respiratório. É muito utilizado no combate a germes e bactérias por conta das suas propriedades bactericida.
 
-{% asset artigo01/_artigo01_imagem16_eucalipto.jpg class="mb-3" %}
+{% asset artigo01/16.jpg class="mb-3" %}
 
 
 
@@ -151,7 +151,7 @@ O óleo essencial de lavanda, além de ser um calmante como o de camomila, alivi
 
 O sândalo aumentar a clareza mental e a memória, é um tipo de incenso comum. Na aromaterapia, os pesquisadores têm encontrado resultados de sândalo semelhante à da lavanda, no entanto, sem muito da sonolência que vem com ele. Sândalo carrega propriedades que são anti-inflamatórias, antienvelhecimento, antiespasmódico, e que pode ajudar a diminuir a pressão arterial.  
 
-{% asset artigo01/_artigo01_imagem17_sandalo.jpg class="mb-3" %}
+{% asset artigo01/17.jpg class="mb-3" %}
 
 
 
