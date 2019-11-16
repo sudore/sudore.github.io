@@ -8,7 +8,11 @@ thumbnail: "oleos-essenciais/thumbnail.jpg"
 
 Os benefícios do uso da sauna de infravermelho tem sido cada vez mais e mais difundidos, mas o que muitos ainda não sabem é como é possível aumentar ainda mais seus efeitos ou melhorar ainda mais a experiência. Por mais incríveis que sejam as saunas de infra, é possível turbinar ainda mais seu uso e alcançar resultados ainda melhores com a adição de óleos essenciais e aromaterapia.
 
-{% asset oleos-essenciais/_artigo01_imagem01_hero.jpg class="mb-3" %}
+{% asset posts/oleos-essenciais/_artigo01_imagem01_hero.jpg class="mb-3" %}
+
+<img class="mb-3" src="{% asset posts/oleos-essenciais/_artigo01_imagem01_hero.jpg @path %}">
+
+
 
 
 Tanto os óleos essenciais quanto a aromaterapia vem sendo usados em diversas culturas durante a história da humanidade. As opções existentes são diversas, cada óleo contém benefícios e vantagens únicas e seu uso depende dos objetivos pretendidos. Por exemplo, para o objetivo de se obter maior foco e concentração os óleos essenciais utilizados são diferentes para o objetivo de combate à insônia. Neste post, iremos falar sobre os tipos, funções e indicações de acordo com os objetivos de alguns dos principais óleos essenciais para serem utilizados na sua sessão de sauna terapia.    
