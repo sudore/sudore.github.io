@@ -10,6 +10,7 @@ assets:
     - _assets/javascripts
     - _assets/stylesheets
     - _assets/yarn
+    - _assets/images
 
 exclude:
   - .travis.yml
