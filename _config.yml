@@ -11,6 +11,7 @@ assets:
     - _assets/stylesheets
     - _assets/yarn
     - _assets/images
+    - _assets/images/oleos-essenciais
 
 exclude:
   - .travis.yml
