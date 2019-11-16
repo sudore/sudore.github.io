@@ -11,7 +11,6 @@ assets:
     - _assets/stylesheets
     - _assets/yarn
     - _assets/images
-    - _assets/images/posts
 
 exclude:
   - .travis.yml
