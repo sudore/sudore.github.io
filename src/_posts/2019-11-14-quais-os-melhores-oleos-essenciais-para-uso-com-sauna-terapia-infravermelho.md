@@ -8,12 +8,9 @@ thumbnail: "oleos-essenciais/thumbnail.jpg"
 
 Os benefícios do uso da sauna de infravermelho tem sido cada vez mais e mais difundidos, mas o que muitos ainda não sabem é como é possível aumentar ainda mais seus efeitos ou melhorar ainda mais a experiência. Por mais incríveis que sejam as saunas de infra, é possível turbinar ainda mais seu uso e alcançar resultados ainda melhores com a adição de óleos essenciais e aromaterapia.
 
-<<<<<<< HEAD
-{% asset posts/oleos-essenciais/_artigo01_imagem01_hero.jpg class="mb-3" %}
-=======
 
-{% asset posts/oleos-essenciais/artigo01_imagem01_hero.jpg class="mb-3" %}
->>>>>>> a51edc49ee74c4aff8d8081376e6603fabf8ab25
+{% asset posts/oleos-essenciais/_artigo01_imagem01_hero.jpg class="mb-3" %}
+
 
 <img class="mb-3" src="{% asset posts/oleos-essenciais/_artigo01_imagem01_hero.jpg @path %}">
 
