@@ -32,7 +32,6 @@ bundle exec "JEKYLL_ENV=production jekyll build"
 find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name '.gitignore' -exec rm -rf {} \;
 mv _site/* .
 rm -R _site/
-rm -R src/
 
 # Push to master.
 git add -fA
