@@ -163,7 +163,8 @@ Ao longo dos séculos, os óleos essenciais têm sido poderosos aliados da human
 
 E é por isso que pensando no seu bem-estar e no melhor proveito da sua sauna terapia de infravermelho, que a Sudore preparou pra você uma gama de toalhas aromáticas com exclusivos óleos essenciais para o seu maior conforto e os melhores resultados possíveis na sua saúde.
 
+{% asset toalha-oleos-essenciais-alt.jpg class="mb-3" %}
 
-E você? 
-Já marcou sua sessão de sauna terapia infravermelho? 
-<a class="font-weight-bold text-danger" href="#" data-toggle="modal" data-target="#sudoreModalCenter">Clique aqui</a> para marcar AINDA HOJE, ou se preferir, fale com o nosso atendimento. Teremos o maior prazer em conversar com você!
+
+E você? Já marcou sua sessão de sauna terapia infravermelho? 
+<a class="font-weight-bold text-danger" href="#" data-toggle="modal" data-target="#sudoreModalCenter">Clique aqui</a> para marcar <span class="font-weight-bold">AINDA HOJE</span>, ou se preferir, fale com o nosso atendimento. Teremos o maior prazer em conversar com você!
