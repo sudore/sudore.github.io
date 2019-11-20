@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /blog/:title
-title: "Quais São Os Melhores Óleos Essenciais Para Se Utilizar Com a Sauna Terapia De Infravermelho?"
+title: "Quais são os melhores Óleos Essenciais para se utilizar com a Sauna Terapia de Infravermelho?"
 description: "Por mais incríveis que sejam as saunas de infra, é possível turbinar ainda mais seu uso e alcançar resultados ainda melhores com a adição de óleos essenciais e aromaterapia."
 thumbnail: "artigo01/thumbnail.jpg"
 ---
@@ -10,7 +10,6 @@ Os benefícios do uso da sauna de infravermelho tem sido cada vez mais e mais di
 
 
 {% asset artigo01/01_hero.jpg class="mb-3" %}
-
 
 
 Tanto os óleos essenciais quanto a aromaterapia vem sendo usados em diversas culturas durante a história da humanidade. As opções existentes são diversas, cada óleo contém benefícios e vantagens únicas e seu uso depende dos objetivos pretendidos. Por exemplo, para o objetivo de se obter maior foco e concentração os óleos essenciais utilizados são diferentes para o objetivo de combate à insônia. Neste post, iremos falar sobre os tipos, funções e indicações de acordo com os objetivos de alguns dos principais óleos essenciais para serem utilizados na sua sessão de sauna terapia.    
