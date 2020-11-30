@@ -1,0 +1,3 @@
+$(document).ready(function(){var o="#main-nav";$("body").scroll(function(){$("body").scrollTop()>20?($(o).removeClass("navbar-dark").addClass("sudore-nav navbar-light"),console.log("if is working!")):($(o).removeClass("sudore-nav navbar-light").addClass("navbar-dark"),console.log("else!!!"))}),$("body").scroll(function(){$(this).scrollTop()>=50?$("#return-to-top").fadeIn(200):$("#return-to-top").fadeOut(200)}),$("#return-to-top").click(function(){$("body,html").animate({scrollTop:0},200)})});
+//# sourceMappingURL=/assets/source-maps/application.js.map
+//# sourceURL=_assets/javascripts/application.js
